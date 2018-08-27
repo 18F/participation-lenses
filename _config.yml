@@ -39,9 +39,3 @@ repos:
 - name: Participation Lenses
   description: Main repository
   url: https://github.com/18F/participation-lenses
-
-plugins:
-  - jekyll-last-modified-at
-  - jemoji
-  - jekyll-mentions
-  - jekyll-redirect-from
