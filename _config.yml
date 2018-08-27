@@ -1,0 +1,47 @@
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+name: Participation Lenses
+
+exclude:
+- CONTRIBUTING.md
+- Gemfile
+- Gemfile.lock
+- LICENSE.md
+- README.md
+- go
+- vendor
+
+permalink: pretty
+highlighter: rouge
+
+sass:
+  style: compressed
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  methods:
+    output: true
+    permalink: /:path/
+  resources:
+    output: true
+    permalink: /:path/
+
+site:
+  title: Participation Lenses
+
+description: A set of perspective-generating prompts designed to help our product and service teams work together in a more inclusive way.
+
+
+repos:
+- name: Participation Lenses
+  description: Main repository
+  url: https://github.com/18F/participation-lenses
+
+plugins:
+  - jekyll-last-modified-at
+  - jemoji
+  - jekyll-mentions
+  - jekyll-redirect-from
